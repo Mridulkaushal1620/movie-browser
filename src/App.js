@@ -5,7 +5,7 @@ import { Button } from "./components/ui/button";
 import { Select } from "./components/ui/select";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const API_KEY = "4acae783d678db46a2dc153881a5895b";
+const API_KEY = "your_tmdb_api_key_here";
 const BASE_URL = "https://api.themoviedb.org/3";
 const IMG_BASE = "https://image.tmdb.org/t/p/w500";
 
