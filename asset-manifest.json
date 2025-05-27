@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/movie_broweser/static/css/main.9d0934b1.css",
+    "main.js": "/movie_broweser/static/js/main.af4ff463.js",
+    "index.html": "/movie_broweser/index.html",
+    "main.9d0934b1.css.map": "/movie_broweser/static/css/main.9d0934b1.css.map",
+    "main.af4ff463.js.map": "/movie_broweser/static/js/main.af4ff463.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d0934b1.css",
+    "static/js/main.af4ff463.js"
+  ]
+}
