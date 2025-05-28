@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+/* Global body and background */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* App container spacing */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Movie cards */
+.movie-card {
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+  background-color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.movie-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.card-img-top {
+  height: 350px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+/* Card body text */
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+}
+
+.btn-outline-dark:hover {
+  background-color: #000;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-danger {
+  background-color: #dc3545;
+  border: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+/* Header styling */
+header h1 {
+  font-weight: bold;
+  color: #343a40;
+}
+
+header {
+  background-color: white;
+  z-index: 10;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Filters section */
+select,
+input[type="number"],
+input[type="text"] {
+  height: 38px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  padding: 0 10px;
+}
+
+/* Responsive spacing */
+@media (max-width: 768px) {
+  .card-img-top {
+    height: 300px;
   }
 }

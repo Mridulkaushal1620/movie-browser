@@ -41,7 +41,7 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-  "homepage": "https://mridulkaushal.github.io/movie_broweser",
+  "homepage": "https://mridulkaushal1620.github.io/movie-browser/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
